@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "f6a6305a931a14926695751a9960e0a0",
-    "url": "/hakima-qcm/static/media/exam-correct-answers.f6a6305a.png"
+    "revision": "a5307ef7fc09bdcd15f4025abd2eccab",
+    "url": "/hakima-qcm/static/media/exam-date.a5307ef7.jpg"
   },
   {
-    "revision": "731a050686315190267f",
-    "url": "/hakima-qcm/static/css/main.e488f557.chunk.css"
+    "revision": "ec03e494f3220755fdd8",
+    "url": "/hakima-qcm/static/css/main.5c439722.chunk.css"
   },
   {
-    "revision": "10c2f2243688ccc1e3f2fa08b4f4e40d",
-    "url": "/hakima-qcm/static/media/search-exam.10c2f224.png"
+    "revision": "8f6ea52994a44fa8fb711a0b8e5d3e60",
+    "url": "/hakima-qcm/static/media/pile-stack.8f6ea529.jpg"
   },
   {
-    "revision": "6fa68d5da86c911fac90",
-    "url": "/hakima-qcm/static/js/1.6fa68d5d.chunk.js"
+    "revision": "9b11189ee965834f9c87",
+    "url": "/hakima-qcm/static/js/1.9b11189e.chunk.js"
   },
   {
     "revision": "f0f3fe4014f0ce8fcdda",
@@ -32,12 +32,12 @@ self.__precacheManifest = [
     "url": "/hakima-qcm/static/media/app-icon-brand.994f2fd5.png"
   },
   {
-    "revision": "a5307ef7fc09bdcd15f4025abd2eccab",
-    "url": "/hakima-qcm/static/media/exam-date.a5307ef7.jpg"
+    "revision": "ec03e494f3220755fdd8",
+    "url": "/hakima-qcm/static/js/main.ec03e494.chunk.js"
   },
   {
-    "revision": "731a050686315190267f",
-    "url": "/hakima-qcm/static/js/main.731a0506.chunk.js"
+    "revision": "f6a6305a931a14926695751a9960e0a0",
+    "url": "/hakima-qcm/static/media/exam-correct-answers.f6a6305a.png"
   },
   {
     "revision": "a9fbf540f602a533daf4eaa9d0c86f5c",
@@ -60,19 +60,11 @@ self.__precacheManifest = [
     "url": "/hakima-qcm/static/media/pile-stack-lamp.5effd0a6.jpg"
   },
   {
-    "revision": "8f6ea52994a44fa8fb711a0b8e5d3e60",
-    "url": "/hakima-qcm/static/media/pile-stack.8f6ea529.jpg"
+    "revision": "9b11189ee965834f9c87",
+    "url": "/hakima-qcm/static/css/1.7795b656.chunk.css"
   },
   {
-    "revision": "9ac288799d3e97edbe6c0f4c8d3b3ee9",
-    "url": "/hakima-qcm/static/media/share-exam.9ac28879.png"
-  },
-  {
-    "revision": "6fa68d5da86c911fac90",
-    "url": "/hakima-qcm/static/css/1.4bcada92.chunk.css"
-  },
-  {
-    "revision": "f896577f9b868b5c3110157b4554bf47",
+    "revision": "c9234234b4c72a2f5358303dc0dc26af",
     "url": "/hakima-qcm/index.html"
   }
 ];
