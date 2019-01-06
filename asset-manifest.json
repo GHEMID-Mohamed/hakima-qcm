@@ -1,7 +1,7 @@
 {
   "main.css": "/hakima-qcm/static/css/main.e62b2d32.chunk.css",
-  "main.js": "/hakima-qcm/static/js/main.45980d79.chunk.js",
-  "main.js.map": "/hakima-qcm/static/js/main.45980d79.chunk.js.map",
+  "main.js": "/hakima-qcm/static/js/main.0d198f65.chunk.js",
+  "main.js.map": "/hakima-qcm/static/js/main.0d198f65.chunk.js.map",
   "static/css/1.0aa9e218.chunk.css": "/hakima-qcm/static/css/1.0aa9e218.chunk.css",
   "static/js/1.dd8a3a6c.chunk.js": "/hakima-qcm/static/js/1.dd8a3a6c.chunk.js",
   "static/js/1.dd8a3a6c.chunk.js.map": "/hakima-qcm/static/js/1.dd8a3a6c.chunk.js.map",
@@ -23,6 +23,6 @@
   "static/css/main.e62b2d32.chunk.css.map": "/hakima-qcm/static/css/main.e62b2d32.chunk.css.map",
   "static/css/1.0aa9e218.chunk.css.map": "/hakima-qcm/static/css/1.0aa9e218.chunk.css.map",
   "index.html": "/hakima-qcm/index.html",
-  "precache-manifest.cedddd962aa3eb848058deed5f9cb10f.js": "/hakima-qcm/precache-manifest.cedddd962aa3eb848058deed5f9cb10f.js",
+  "precache-manifest.803952ca1de0bc2bf206488b3639aed6.js": "/hakima-qcm/precache-manifest.803952ca1de0bc2bf206488b3639aed6.js",
   "service-worker.js": "/hakima-qcm/service-worker.js"
 }
