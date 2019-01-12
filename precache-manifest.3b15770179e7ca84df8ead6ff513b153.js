@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/hakima-qcm/static/media/exam-correct-answers.f6a6305a.png"
   },
   {
-    "revision": "3314dd63758e9981ec33",
+    "revision": "559c5516eb4703d343ae",
     "url": "/hakima-qcm/static/css/main.1325112a.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/hakima-qcm/static/media/pile-stack.b64503d7.jpg"
   },
   {
-    "revision": "19ae166d6c5619e44508",
-    "url": "/hakima-qcm/static/js/1.19ae166d.chunk.js"
+    "revision": "65ff12b927075927b3d8",
+    "url": "/hakima-qcm/static/js/1.65ff12b9.chunk.js"
   },
   {
     "revision": "f0f3fe4014f0ce8fcdda",
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/hakima-qcm/static/media/exam-date.a5307ef7.jpg"
   },
   {
-    "revision": "3314dd63758e9981ec33",
-    "url": "/hakima-qcm/static/js/main.3314dd63.chunk.js"
+    "revision": "559c5516eb4703d343ae",
+    "url": "/hakima-qcm/static/js/main.559c5516.chunk.js"
   },
   {
     "revision": "5a2f8493de3c25022ce02009ad205364",
@@ -64,11 +64,11 @@ self.__precacheManifest = [
     "url": "/hakima-qcm/static/media/pile-stack-lamp.82309d59.jpg"
   },
   {
-    "revision": "19ae166d6c5619e44508",
+    "revision": "65ff12b927075927b3d8",
     "url": "/hakima-qcm/static/css/1.ac0b31a1.chunk.css"
   },
   {
-    "revision": "394a5d1e4e33412f87f9c78b414b4dea",
+    "revision": "fa7aa9dff16c9aab4cc8e6948236cc58",
     "url": "/hakima-qcm/index.html"
   }
 ];

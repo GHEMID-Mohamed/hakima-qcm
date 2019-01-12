@@ -1,10 +1,10 @@
 {
   "main.css": "/hakima-qcm/static/css/main.1325112a.chunk.css",
-  "main.js": "/hakima-qcm/static/js/main.3314dd63.chunk.js",
-  "main.js.map": "/hakima-qcm/static/js/main.3314dd63.chunk.js.map",
+  "main.js": "/hakima-qcm/static/js/main.559c5516.chunk.js",
+  "main.js.map": "/hakima-qcm/static/js/main.559c5516.chunk.js.map",
   "static/css/1.ac0b31a1.chunk.css": "/hakima-qcm/static/css/1.ac0b31a1.chunk.css",
-  "static/js/1.19ae166d.chunk.js": "/hakima-qcm/static/js/1.19ae166d.chunk.js",
-  "static/js/1.19ae166d.chunk.js.map": "/hakima-qcm/static/js/1.19ae166d.chunk.js.map",
+  "static/js/1.65ff12b9.chunk.js": "/hakima-qcm/static/js/1.65ff12b9.chunk.js",
+  "static/js/1.65ff12b9.chunk.js.map": "/hakima-qcm/static/js/1.65ff12b9.chunk.js.map",
   "runtime~main.js": "/hakima-qcm/static/js/runtime~main.f0f3fe40.js",
   "runtime~main.js.map": "/hakima-qcm/static/js/runtime~main.f0f3fe40.js.map",
   "static/media/button-spinner.gif": "/hakima-qcm/static/media/button-spinner.44271f65.gif",
@@ -22,6 +22,6 @@
   "static/css/main.1325112a.chunk.css.map": "/hakima-qcm/static/css/main.1325112a.chunk.css.map",
   "static/css/1.ac0b31a1.chunk.css.map": "/hakima-qcm/static/css/1.ac0b31a1.chunk.css.map",
   "index.html": "/hakima-qcm/index.html",
-  "precache-manifest.da3ca9b84f7aa1a656cea8e6a37fdcad.js": "/hakima-qcm/precache-manifest.da3ca9b84f7aa1a656cea8e6a37fdcad.js",
+  "precache-manifest.3b15770179e7ca84df8ead6ff513b153.js": "/hakima-qcm/precache-manifest.3b15770179e7ca84df8ead6ff513b153.js",
   "service-worker.js": "/hakima-qcm/service-worker.js"
 }
