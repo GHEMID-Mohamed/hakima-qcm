@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/hakima-qcm/static/media/exam-correct-answers.f6a6305a.png"
   },
   {
-    "revision": "bf833c20b62282d218cc",
+    "revision": "d288d76d2bc128c18b2b",
     "url": "/hakima-qcm/static/css/main.7351769a.chunk.css"
   },
   {
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/hakima-qcm/static/media/exam-date.a5307ef7.jpg"
   },
   {
-    "revision": "bf833c20b62282d218cc",
-    "url": "/hakima-qcm/static/js/main.bf833c20.chunk.js"
+    "revision": "d288d76d2bc128c18b2b",
+    "url": "/hakima-qcm/static/js/main.d288d76d.chunk.js"
   },
   {
     "revision": "5a2f8493de3c25022ce02009ad205364",
@@ -68,7 +68,7 @@ self.__precacheManifest = [
     "url": "/hakima-qcm/static/css/1.3bf3530a.chunk.css"
   },
   {
-    "revision": "8d6eedc3d26807b41549d6b57825ba28",
+    "revision": "dfc10d768767cf896e264b96e0d6071f",
     "url": "/hakima-qcm/index.html"
   }
 ];
