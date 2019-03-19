@@ -10,7 +10,7 @@
     {
       "src": "app-icon.png",
       "sizes": "323x323",
-      "type": "image/x-icon"
+      "type": "image/png"
     }
   ],
   "start_url": ".",
