@@ -1,7 +1,7 @@
 {
   "main.css": "/hakima-qcm/static/css/main.e1fe7f36.chunk.css",
-  "main.js": "/hakima-qcm/static/js/main.0cec7f8c.chunk.js",
-  "main.js.map": "/hakima-qcm/static/js/main.0cec7f8c.chunk.js.map",
+  "main.js": "/hakima-qcm/static/js/main.16ccf695.chunk.js",
+  "main.js.map": "/hakima-qcm/static/js/main.16ccf695.chunk.js.map",
   "static/css/1.c2741f32.chunk.css": "/hakima-qcm/static/css/1.c2741f32.chunk.css",
   "static/js/1.6dbc6684.chunk.js": "/hakima-qcm/static/js/1.6dbc6684.chunk.js",
   "static/js/1.6dbc6684.chunk.js.map": "/hakima-qcm/static/js/1.6dbc6684.chunk.js.map",
@@ -19,9 +19,9 @@
   "static/media/pile-stack-lamp.jpg": "/hakima-qcm/static/media/pile-stack-lamp.82309d59.jpg",
   "static/media/pile-stack.jpg": "/hakima-qcm/static/media/pile-stack.b64503d7.jpg",
   "static/media/cute_koala.jpg": "/hakima-qcm/static/media/cute_koala.4127e90e.jpg",
-  "static/css/main.e1fe7f36.chunk.css.map": "/hakima-qcm/static/css/main.e1fe7f36.chunk.css.map",
   "static/css/1.c2741f32.chunk.css.map": "/hakima-qcm/static/css/1.c2741f32.chunk.css.map",
+  "static/css/main.e1fe7f36.chunk.css.map": "/hakima-qcm/static/css/main.e1fe7f36.chunk.css.map",
   "index.html": "/hakima-qcm/index.html",
-  "precache-manifest.83b04bbdd6f751f0cc2eddeb8cc59ac5.js": "/hakima-qcm/precache-manifest.83b04bbdd6f751f0cc2eddeb8cc59ac5.js",
+  "precache-manifest.2e0a9dedadcf34d6490ea496eb0078fd.js": "/hakima-qcm/precache-manifest.2e0a9dedadcf34d6490ea496eb0078fd.js",
   "service-worker.js": "/hakima-qcm/service-worker.js"
 }
