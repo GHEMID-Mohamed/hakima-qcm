@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/hakima-qcm/precache-manifest.d551e8742e02a05e728fb2b53f6bd8b9.js"
+  "/hakima-qcm/precache-manifest.36ad0dd1e067118a0cc648d9ff0a63c0.js"
 );
 
 workbox.clientsClaim();
