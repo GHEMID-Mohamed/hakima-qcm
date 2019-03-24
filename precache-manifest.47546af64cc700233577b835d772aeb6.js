@@ -68,7 +68,7 @@ self.__precacheManifest = [
     "url": "/hakima-qcm/static/css/1.6505b980.chunk.css"
   },
   {
-    "revision": "09f8c9e52c8c8dbf9ea2890344c40ba4",
+    "revision": "d7e92daeaae94d527b082bf58e6d59b7",
     "url": "/hakima-qcm/index.html"
   }
 ];
