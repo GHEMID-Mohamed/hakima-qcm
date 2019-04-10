@@ -1,0 +1,16 @@
+html {
+  font-size: 90%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Roboto Condensed', 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
+  padding-bottom: 100px;
+  overflow-x: hidden;
+}
+
+.react-datepicker-wrapper,
+.react-datepicker__input-container {
+  display: block !important;
+}
