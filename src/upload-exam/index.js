@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 import { isEmpty } from "lodash";
 import FileInput from "../file-input";
 import ActionButton from "../components/action-button";
+import Instruction from "./components/instruction";
 import ScanImg from "../imgs/scan-icon.gif";
 import WaitedFormat from "./components/waited-format";
 import ScannedText from "./components/scanned-text";
@@ -68,10 +69,7 @@ const UploadExam = ({ state, effects, questions }) => (
     className="h-100"
     body
   >
-    <Form
-      // enctype="multipart/form-data"
-      id="upload-exam-form"
-    >
+    <Form id="upload-exam-form">
       <Row>
         <Col md="9">
           <FileInput onSelectFiles={effects.setFilesToUpload} />
@@ -98,6 +96,16 @@ const UploadExam = ({ state, effects, questions }) => (
           />
         </Col>
       </Row>
+      {state.scannedText === undefined && !state.loading && (
+        <Fragment>
+          <br />
+          <Row>
+            <Col>
+              <Instruction />
+            </Col>
+          </Row>
+        </Fragment>
+      )}
     </Form>
     <br />
     {state.loading && (
@@ -124,10 +132,10 @@ const UploadExam = ({ state, effects, questions }) => (
     {state.scannedText !== undefined && (
       <Fragment>
         <Row>
-          <Col md="4">
+          <Col md="4" className="animated fadeInRight delay-1s">
             <WaitedFormat />
           </Col>
-          <Col md="8">
+          <Col md="8" className="animated fadeInLeft delay-1s">
             <ScannedText
               text={state.scannedText}
               onQuestionExtraction={effects.setQuestions}
