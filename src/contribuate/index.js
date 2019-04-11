@@ -1,72 +1,72 @@
-import PlusIcon from 'react-icons/lib/fa/plus'
-import GlobeIcon from 'react-icons/lib/fa/globe'
-import DownloadIcon from 'react-icons/lib/fa/download'
-import React, { Fragment } from 'react'
-import { Badge, Button, Card, Row, Col } from 'reactstrap'
-import { injectState, provideState } from 'reaclette'
+import PlusIcon from "react-icons/lib/fa/plus";
+import GlobeIcon from "react-icons/lib/fa/globe";
+import DownloadIcon from "react-icons/lib/fa/download";
+import React, { Fragment } from "react";
+import { Badge, Button, Card, Row, Col } from "reactstrap";
+import { injectState, provideState } from "reaclette";
 
-import UserAddedExams from '../user-added-exams'
-import ExamForm from '../exam-form'
-import LoadingIcon from '../imgs/button-spinner.gif'
-import ScanInfoCard from '../scan-info-card'
-import SendExamsEmail from '../send-exams-email'
+import UserAddedExams from "../user-added-exams";
+import ExamForm from "../exam-form";
+import LoadingIcon from "../imgs/button-spinner.gif";
+import ScanInfoCard from "../scan-info-card";
+import SendExamsEmail from "../send-exams-email";
 
-import '../style/hover.css'
+import "../style/hover.css";
 
-import { ObjectId } from 'bson'
+import { ObjectId } from "bson";
 
 const withState = provideState({
   initialState: () => ({
     addExamView: false,
     initialExamData: undefined,
     examLoading: false,
-    queryString: false,
+    queryString: false
   }),
   effects: {
     initialize: effects => async (state, { match }) => {
-      const examId = match && match.params && match.params.examId
+      const examId = match && match.params && match.params.examId;
       if (examId) {
-        state.examLoading = true
-        const objectId = new ObjectId(examId)
-        const exam = await state.mongodb.find({ _id: objectId }).asArray()
-        state.initialExamData = exam.pop()
-        state.examLoading = false
-        state.addExamView = true
+        state.examLoading = true;
+        const objectId = new ObjectId(examId);
+        const exam = await state.mongodb.find({ _id: objectId }).asArray();
+        state.initialExamData = exam.pop();
+        state.examLoading = false;
+        state.addExamView = true;
       }
-      const params = new URLSearchParams(window.location.hash.split('?')[1])
-      const _module = params.get('module')
-      const university = params.get('university')
+      const params = new URLSearchParams(window.location.hash.split("?")[1]);
+      const _module = params.get("module");
+      const university = params.get("university");
       if (_module && university) {
-        state.queryString = true
+        state.queryString = true;
         state.initialExamData = {
           module: _module,
-          university: university,
-        }
-        effects.displayExamView()
+          university: university
+        };
+        effects.displayExamView();
       }
-      window.scrollTo(0, 0)
+      window.scrollTo(0, 0);
     },
     displayExamView: () => state => ({
       ...state,
-      addExamView: true,
+      addExamView: true
     }),
     hideExamView: () => state => ({
       ...state,
-      addExamView: false,
-    }),
-  },
-})
+      addExamView: false
+    })
+  }
+});
 
 const Contribuate = ({ effects, state }) => (
-  <div style={{ marginTop: '20px' }}>
+  <div style={{ marginTop: "20px" }}>
     <Row>
       <Col md="9">
         <h5 className="text-muted hvr-icon-spin">
-          Le monde n'a pas été crée en un jour{' '}
+          Le monde n'a pas été crée en un jour{" "}
           <GlobeIcon
             size="22"
             className="hvr-icon"
-            style={{ color: '#0e627f' }}
+            style={{ color: "#0e627f" }}
           />
         </h5>
       </Col>
@@ -78,9 +78,9 @@ const Contribuate = ({ effects, state }) => (
           block
           color="success"
         >
-          <span style={{ fontSize: '16px', fontWeight: 'bold' }}>
+          <span style={{ fontSize: "16px", fontWeight: "bold" }}>
             Ajouter un examen
-          </span>{' '}
+          </span>{" "}
           <PlusIcon color="white" size="20" className="hvr-icon" />
         </Button>
       </Col>
@@ -120,7 +120,7 @@ const Contribuate = ({ effects, state }) => (
     {state.authId && (
       <Row>
         <Col>
-          <p className="text-muted" style={{ fontWeight: 'bold' }}>
+          <p className="text-muted" style={{ fontWeight: "bold" }}>
             Mes examens postés
           </p>
           <Card body>
@@ -132,25 +132,23 @@ const Contribuate = ({ effects, state }) => (
     <br />
     <br />
     <Row>
-      <Col>
-        <ScanInfoCard />
-      </Col>
+      <Col>{/* <ScanInfoCard /> */}</Col>
       <Col>
         <h4 className="float-right">
           <a
             href="https://mega.nz/#F!auwVTA4B!qkw06O3Sq8pnXcFxPgiL0w"
             target="_blank"
             style={{
-              textDecoration: 'none',
+              textDecoration: "none"
             }}
           >
             <Badge
               color="info"
               pill
               className="hvr-float-shadow"
-              style={{ cursor: 'pointer' }}
+              style={{ cursor: "pointer" }}
             >
-              2017-2018 EMD Scannés <DownloadIcon />{' '}
+              2017-2018 EMD Scannés <DownloadIcon />{" "}
             </Badge>
           </a>
         </h4>
@@ -162,6 +160,6 @@ const Contribuate = ({ effects, state }) => (
       </Col>
     </Row>
   </div>
-)
+);
 
-export default withState(injectState(Contribuate))
+export default withState(injectState(Contribuate));
