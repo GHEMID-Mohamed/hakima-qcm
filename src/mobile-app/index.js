@@ -18,7 +18,7 @@ const MobileApp = ({ effects, state, history }) => (
       <ListGroupItem>
         <span className="font-weight-bold">2.</span> Si vous avez déjà ouvert le
         site sur votre navigateur et que vous n'avez pas encore installer
-        l'application, videz l'histoire de votre navigateur et refaites l'étape
+        l'application, videz l'historique de votre navigateur et refaites l'étape
         1.
       </ListGroupItem>
       <ListGroupItem color="info">
