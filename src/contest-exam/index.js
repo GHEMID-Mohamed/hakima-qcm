@@ -1,12 +1,12 @@
-import React from 'react'
-import { Card, CardBody, Button, CardText, Row, Col } from 'reactstrap'
-import { injectState } from 'reaclette'
-import CuteKoala from '../imgs/cute_koala.jpg'
+import React from "react";
+import { Card, CardBody, Button, CardText, Row, Col } from "reactstrap";
+import { injectState } from "reaclette";
+import CuteKoala from "../imgs/cute_koala.jpg";
 
 const ContestExam = ({ history, state }) => (
-  <Card style={{ boxShadow: '0 3px 5px rgba(0,0,0,.1)' }} className="h-100">
+  <Card style={{ boxShadow: "0 3px 5px rgba(0,0,0,.1)" }} className="h-100">
     <CardBody>
-      <CardText style={{ textAlign: 'center', fontSize: '20px' }}>
+      <CardText style={{ textAlign: "center", fontSize: "20px" }}>
         <Row>
           <Col>
             Il y a pas assez d'examens saisis pour commencer un concours :(
@@ -22,9 +22,9 @@ const ContestExam = ({ history, state }) => (
               color="info"
               onClick={() => {
                 if (state.logged) {
-                  history.push('/contribuer')
+                  history.push("/contribuer");
                 } else {
-                  history.push('/authenticate')
+                  history.push("/authenticate");
                 }
               }}
             >
@@ -34,15 +34,26 @@ const ContestExam = ({ history, state }) => (
         </Row>
         <br />
         <Row>
-          <Col>
-            <div className="text-center">
-              <img src={CuteKoala} alt="cute koala" height="200" width="200" />
-            </div>
+          <Col md={{ size: 8, offset: 2 }}>
+            <Card body>
+              <div className="text-center">
+                <h3>Voir comment ajouter un examen sur Hakima QCM</h3>
+                <div className="embed-responsive embed-responsive-16by9">
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/6fu5EjWm3BE"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  />
+                </div>
+              </div>
+            </Card>
           </Col>
         </Row>
       </CardText>
     </CardBody>
   </Card>
-)
+);
 
-export default injectState(ContestExam)
+export default injectState(ContestExam);

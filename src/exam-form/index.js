@@ -96,7 +96,7 @@ const withState = provideState({
           );
           state.examCompleted = true;
           effects.notifySuccess(
-            "Merci, votre examen est ajouté avec succés !, Il sera vérifié et publier bientôt :)"
+            "Merci, votre examen est ajouté avec succés !, Il sera vérifié et publié bientôt :)"
           );
           onHideExamView();
           effects.getPostedExams();

@@ -38,12 +38,6 @@ const PassExam = ({ effects, state, history }) => (
         <ExamExplorer history={history} />
       </Col>
     </Row>
-    <br />
-    <Row>
-      <Col>
-        <StatExams />
-      </Col>
-    </Row>
   </div>
 );
 

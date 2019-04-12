@@ -40,7 +40,7 @@ const withState = provideState({
               correctAnswers: sections[6]
                 .substring(4, sections[6].length)
                 .trim()
-                .split(",")
+                .split(/[.,]+/)
             }
           };
         });

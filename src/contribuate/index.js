@@ -1,6 +1,7 @@
 import PlusIcon from "react-icons/lib/fa/plus";
 import GlobeIcon from "react-icons/lib/fa/globe";
 import DownloadIcon from "react-icons/lib/fa/download";
+import VideoIcon from "react-icons/lib/fa/video-camera";
 import React, { Fragment } from "react";
 import { Badge, Button, Card, Row, Col } from "reactstrap";
 import { injectState, provideState } from "reaclette";
@@ -85,6 +86,18 @@ const Contribuate = ({ effects, state }) => (
         </Button>
       </Col>
     </Row>
+    <Row>
+      <Col>
+        <h4>
+          <a href="https://www.youtube.com/watch?v=6fu5EjWm3BE" target="_blank">
+            <Badge color="info" className=" hvr-fade">
+              Voir en vidéo comment partager un examen <VideoIcon />
+            </Badge>
+          </a>
+        </h4>
+      </Col>
+    </Row>
+    <br />
     <Row>
       <Col>
         {state.examLoading ? (
