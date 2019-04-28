@@ -21,7 +21,7 @@ const IllustrationIdeaCard = ({ history, state }) => (
       md="3"
       xs="12"
       style={{ marginBottom: "15px" }}
-      className="animated fadeIn delay-1"
+      // className="animated fadeIn delay-1"
     >
       <SolutionCard />
     </Col>
@@ -29,7 +29,7 @@ const IllustrationIdeaCard = ({ history, state }) => (
       md="3"
       xs="12"
       style={{ marginBottom: "15px" }}
-      className="animated fadeIn delay-2s"
+      // className="animated fadeIn delay-2s"
     >
       <IdeaCard />
     </Col>
@@ -37,7 +37,7 @@ const IllustrationIdeaCard = ({ history, state }) => (
       md="3"
       xs="12"
       style={{ marginBottom: "15px" }}
-      className="animated fadeIn delay-3s"
+      // className="animated fadeIn delay-3s"
     >
       <SecurityCard />
     </Col>

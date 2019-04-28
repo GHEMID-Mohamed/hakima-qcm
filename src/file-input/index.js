@@ -8,7 +8,7 @@ import { injectState, provideState } from 'reaclette'
 import { generateId } from '../utils'
 import './style.css'
 
-const MAX_FILE_UPLOAD = 10
+const MAX_FILE_UPLOAD = 20
 
 const withState = provideState({
   initialState: () => ({
